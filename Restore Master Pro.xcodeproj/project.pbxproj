@@ -7,23 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1FB3F728E1779D00878F65 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FB3F628E1779D00878F65 /* RegisterViewController.swift */; };
+		5F1FB3F928E177AF00878F65 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FB3F828E177AF00878F65 /* ForgotPasswordViewController.swift */; };
 		5F21FA2928DC1D5A005203BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F21FA2828DC1D5A005203BD /* AppDelegate.swift */; };
-		5F21FA2B28DC1D5A005203BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F21FA2A28DC1D5A005203BD /* SceneDelegate.swift */; };
 		5F21FA2D28DC1D5A005203BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F21FA2C28DC1D5A005203BD /* ViewController.swift */; };
 		5F21FA3028DC1D5A005203BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F21FA2E28DC1D5A005203BD /* Main.storyboard */; };
 		5F21FA3228DC1D5E005203BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F21FA3128DC1D5E005203BD /* Assets.xcassets */; };
 		5F21FA3528DC1D5E005203BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F21FA3328DC1D5E005203BD /* LaunchScreen.storyboard */; };
+		5F21FA3E28DC26AC005203BD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F21FA3D28DC26AC005203BD /* Extension.swift */; };
+		5F21FA4328DC2DE1005203BD /* AlamedaScript_PERSONAL_USE_ONLY.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5F21FA4228DC2DE1005203BD /* AlamedaScript_PERSONAL_USE_ONLY.otf */; };
+		5F44443C28E1C6FA006A3171 /* SmoothTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F44443528E1C6F9006A3171 /* SmoothTabBarView.xib */; };
+		5F44443D28E1C6FA006A3171 /* SmoothTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44443628E1C6F9006A3171 /* SmoothTabBarView.swift */; };
+		5F44443E28E1C6FA006A3171 /* SmoothTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44443828E1C6FA006A3171 /* SmoothTabItemView.swift */; };
+		5F44443F28E1C6FA006A3171 /* SmoothTabItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F44443928E1C6FA006A3171 /* SmoothTabItemView.xib */; };
+		5F44444028E1C6FA006A3171 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44443B28E1C6FA006A3171 /* AppTabBarViewController.swift */; };
+		5F70434628E440090026B5DB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F70434528E440090026B5DB /* ProfileViewController.swift */; };
+		5F70434828E44ABA0026B5DB /* trash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5F70434728E44AB90026B5DB /* trash.gif */; };
+		5F70434C28E458370026B5DB /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F70434B28E458370026B5DB /* Validation.swift */; };
+		5F70434E28E463BE0026B5DB /* ImageUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F70434D28E463BE0026B5DB /* ImageUpload.swift */; };
+		5F793FD628E40C6500D0741F /* UploadedImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F793FD528E40C6500D0741F /* UploadedImagesViewController.swift */; };
+		5F793FDC28E4145300D0741F /* VideoUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F793FDB28E4145300D0741F /* VideoUploadViewController.swift */; };
+		5F793FDE28E415D300D0741F /* FullImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F793FDD28E415D300D0741F /* FullImagesViewController.swift */; };
+		5F93124D28E2CB6000DC98F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F93124C28E2CB6000DC98F5 /* HomeViewController.swift */; };
+		5F93125028E2E0FD00DC98F5 /* Gallery.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5F93124E28E2E0FD00DC98F5 /* Gallery.gif */; };
+		5F93125128E2E0FD00DC98F5 /* Camera.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5F93124F28E2E0FD00DC98F5 /* Camera.gif */; };
+		5F93125428E2E6E600DC98F5 /* GIFCallFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F93125328E2E6E600DC98F5 /* GIFCallFiles.swift */; };
+		5F9AAB1928E6C26900356ACD /* Video.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5F9AAB1828E6C26800356ACD /* Video.gif */; };
+		5F9D335928E6B65100368D17 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D335828E6B65100368D17 /* FavouriteViewController.swift */; };
+		5FB2EE3028E4186900EB378E /* UploadedImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB2EE2F28E4186900EB378E /* UploadedImagesCollectionViewCell.swift */; };
+		5FB2EE3228E4243500EB378E /* VideoUploadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB2EE3128E4243500EB378E /* VideoUploadCollectionViewCell.swift */; };
+		5FBFC64D28E3004F00916A6B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FBFC64C28E3004F00916A6B /* GoogleService-Info.plist */; };
+		5FF4D01D28EA0E89004EEAB3 /* AdsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4D01B28EA0E89004EEAB3 /* AdsHelper.swift */; };
+		5FF4D01E28EA0E89004EEAB3 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF4D01C28EA0E89004EEAB3 /* UnityAds.framework */; };
+		A72FF90DBA585DFEFEA05982 /* Pods_Restore_Master_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C145AF11AFD80BA32CAB0B /* Pods_Restore_Master_Pro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F1FB3F628E1779D00878F65 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5F1FB3F828E177AF00878F65 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		5F21FA2528DC1D5A005203BD /* Restore Master Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restore Master Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F21FA2828DC1D5A005203BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F21FA2A28DC1D5A005203BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F21FA2C28DC1D5A005203BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F21FA2F28DC1D5A005203BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F21FA3128DC1D5E005203BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F21FA3428DC1D5E005203BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F21FA3628DC1D5E005203BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F21FA3D28DC26AC005203BD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5F21FA4228DC2DE1005203BD /* AlamedaScript_PERSONAL_USE_ONLY.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlamedaScript_PERSONAL_USE_ONLY.otf; sourceTree = "<group>"; };
+		5F44443528E1C6F9006A3171 /* SmoothTabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmoothTabBarView.xib; sourceTree = "<group>"; };
+		5F44443628E1C6F9006A3171 /* SmoothTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothTabBarView.swift; sourceTree = "<group>"; };
+		5F44443828E1C6FA006A3171 /* SmoothTabItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothTabItemView.swift; sourceTree = "<group>"; };
+		5F44443928E1C6FA006A3171 /* SmoothTabItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmoothTabItemView.xib; sourceTree = "<group>"; };
+		5F44443B28E1C6FA006A3171 /* AppTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTabBarViewController.swift; sourceTree = "<group>"; };
+		5F70434528E440090026B5DB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5F70434728E44AB90026B5DB /* trash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = trash.gif; sourceTree = "<group>"; };
+		5F70434B28E458370026B5DB /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		5F70434D28E463BE0026B5DB /* ImageUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUpload.swift; sourceTree = "<group>"; };
+		5F793FD528E40C6500D0741F /* UploadedImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadedImagesViewController.swift; sourceTree = "<group>"; };
+		5F793FDB28E4145300D0741F /* VideoUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUploadViewController.swift; sourceTree = "<group>"; };
+		5F793FDD28E415D300D0741F /* FullImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImagesViewController.swift; sourceTree = "<group>"; };
+		5F93124C28E2CB6000DC98F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F93124E28E2E0FD00DC98F5 /* Gallery.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Gallery.gif; sourceTree = "<group>"; };
+		5F93124F28E2E0FD00DC98F5 /* Camera.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Camera.gif; sourceTree = "<group>"; };
+		5F93125328E2E6E600DC98F5 /* GIFCallFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFCallFiles.swift; sourceTree = "<group>"; };
+		5F9AAB1828E6C26800356ACD /* Video.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Video.gif; sourceTree = "<group>"; };
+		5F9D335828E6B65100368D17 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		5FB2EE2F28E4186900EB378E /* UploadedImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadedImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		5FB2EE3128E4243500EB378E /* VideoUploadCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUploadCollectionViewCell.swift; sourceTree = "<group>"; };
+		5FBFC64C28E3004F00916A6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5FF4D01B28EA0E89004EEAB3 /* AdsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsHelper.swift; sourceTree = "<group>"; };
+		5FF4D01C28EA0E89004EEAB3 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+		97F1C6B8AEC03D9B1F0410D8 /* Pods-Restore Master Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restore Master Pro.debug.xcconfig"; path = "Target Support Files/Pods-Restore Master Pro/Pods-Restore Master Pro.debug.xcconfig"; sourceTree = "<group>"; };
+		B9C145AF11AFD80BA32CAB0B /* Pods_Restore_Master_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Restore_Master_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE84F620292CAEBA51F4363E /* Pods-Restore Master Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restore Master Pro.release.xcconfig"; path = "Target Support Files/Pods-Restore Master Pro/Pods-Restore Master Pro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +87,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72FF90DBA585DFEFEA05982 /* Pods_Restore_Master_Pro.framework in Frameworks */,
+				5FF4D01E28EA0E89004EEAB3 /* UnityAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F1FB3F528E1768000878F65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FB3F628E1779D00878F65 /* RegisterViewController.swift */,
+				5F1FB3F828E177AF00878F65 /* ForgotPasswordViewController.swift */,
+				5F93124C28E2CB6000DC98F5 /* HomeViewController.swift */,
+				5F793FD528E40C6500D0741F /* UploadedImagesViewController.swift */,
+				5F793FDB28E4145300D0741F /* VideoUploadViewController.swift */,
+				5F793FDD28E415D300D0741F /* FullImagesViewController.swift */,
+				5F70434528E440090026B5DB /* ProfileViewController.swift */,
+				5F9D335828E6B65100368D17 /* FavouriteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5F21FA1C28DC1D5A005203BD = {
 			isa = PBXGroup;
 			children = (
 				5F21FA2728DC1D5A005203BD /* Restore Master Pro */,
 				5F21FA2628DC1D5A005203BD /* Products */,
+				B96BE79C3D10338BAAD1EA16 /* Pods */,
+				E8B56F09B4BA4A10227E79A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +131,131 @@
 		5F21FA2728DC1D5A005203BD /* Restore Master Pro */ = {
 			isa = PBXGroup;
 			children = (
+				5FF4D01A28EA0E89004EEAB3 /* Ads Helper */,
+				5F793FD728E40FDA00D0741F /* Model */,
+				5FB2EE2E28E4186900EB378E /* View */,
+				5F93125228E2E6D200DC98F5 /* HelpersFiles */,
+				5F1FB3F528E1768000878F65 /* Controller */,
+				5F44443328E1C6F9006A3171 /* Source */,
+				5F21FA3F28DC2CB7005203BD /* Fonts */,
+				5F21FA3C28DC2695005203BD /* Extension */,
 				5F21FA2828DC1D5A005203BD /* AppDelegate.swift */,
-				5F21FA2A28DC1D5A005203BD /* SceneDelegate.swift */,
 				5F21FA2C28DC1D5A005203BD /* ViewController.swift */,
 				5F21FA2E28DC1D5A005203BD /* Main.storyboard */,
 				5F21FA3128DC1D5E005203BD /* Assets.xcassets */,
 				5F21FA3328DC1D5E005203BD /* LaunchScreen.storyboard */,
 				5F21FA3628DC1D5E005203BD /* Info.plist */,
+				5FBFC64C28E3004F00916A6B /* GoogleService-Info.plist */,
 			);
 			path = "Restore Master Pro";
+			sourceTree = "<group>";
+		};
+		5F21FA3C28DC2695005203BD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5F21FA3D28DC26AC005203BD /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5F21FA3F28DC2CB7005203BD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5F21FA4228DC2DE1005203BD /* AlamedaScript_PERSONAL_USE_ONLY.otf */,
+				5F9AAB1828E6C26800356ACD /* Video.gif */,
+				5F93124F28E2E0FD00DC98F5 /* Camera.gif */,
+				5F70434728E44AB90026B5DB /* trash.gif */,
+				5F93124E28E2E0FD00DC98F5 /* Gallery.gif */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5F44443328E1C6F9006A3171 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5F44443428E1C6F9006A3171 /* TabBarView */,
+				5F44443728E1C6F9006A3171 /* TabItem */,
+				5F44443A28E1C6FA006A3171 /* TabBarController */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5F44443428E1C6F9006A3171 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				5F44443528E1C6F9006A3171 /* SmoothTabBarView.xib */,
+				5F44443628E1C6F9006A3171 /* SmoothTabBarView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		5F44443728E1C6F9006A3171 /* TabItem */ = {
+			isa = PBXGroup;
+			children = (
+				5F44443828E1C6FA006A3171 /* SmoothTabItemView.swift */,
+				5F44443928E1C6FA006A3171 /* SmoothTabItemView.xib */,
+			);
+			path = TabItem;
+			sourceTree = "<group>";
+		};
+		5F44443A28E1C6FA006A3171 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				5F44443B28E1C6FA006A3171 /* AppTabBarViewController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		5F793FD728E40FDA00D0741F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F70434B28E458370026B5DB /* Validation.swift */,
+				5F70434D28E463BE0026B5DB /* ImageUpload.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F93125228E2E6D200DC98F5 /* HelpersFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5F93125328E2E6E600DC98F5 /* GIFCallFiles.swift */,
+			);
+			path = HelpersFiles;
+			sourceTree = "<group>";
+		};
+		5FB2EE2E28E4186900EB378E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FB2EE2F28E4186900EB378E /* UploadedImagesCollectionViewCell.swift */,
+				5FB2EE3128E4243500EB378E /* VideoUploadCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FF4D01A28EA0E89004EEAB3 /* Ads Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5FF4D01B28EA0E89004EEAB3 /* AdsHelper.swift */,
+				5FF4D01C28EA0E89004EEAB3 /* UnityAds.framework */,
+			);
+			path = "Ads Helper";
+			sourceTree = "<group>";
+		};
+		B96BE79C3D10338BAAD1EA16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F1C6B8AEC03D9B1F0410D8 /* Pods-Restore Master Pro.debug.xcconfig */,
+				FE84F620292CAEBA51F4363E /* Pods-Restore Master Pro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8B56F09B4BA4A10227E79A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9C145AF11AFD80BA32CAB0B /* Pods_Restore_Master_Pro.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F21FA3928DC1D5E005203BD /* Build configuration list for PBXNativeTarget "Restore Master Pro" */;
 			buildPhases = (
+				069FD8C6A2D190DC1D637086 /* [CP] Check Pods Manifest.lock */,
 				5F21FA2128DC1D5A005203BD /* Sources */,
 				5F21FA2228DC1D5A005203BD /* Frameworks */,
 				5F21FA2328DC1D5A005203BD /* Resources */,
+				87C4B1E04E2CC51324F101F2 /* [CP] Embed Pods Frameworks */,
+				3FFD94BCAF3BDB72CB4BBD6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,22 +319,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F44443C28E1C6FA006A3171 /* SmoothTabBarView.xib in Resources */,
+				5F44443F28E1C6FA006A3171 /* SmoothTabItemView.xib in Resources */,
+				5FBFC64D28E3004F00916A6B /* GoogleService-Info.plist in Resources */,
+				5F21FA4328DC2DE1005203BD /* AlamedaScript_PERSONAL_USE_ONLY.otf in Resources */,
 				5F21FA3528DC1D5E005203BD /* LaunchScreen.storyboard in Resources */,
 				5F21FA3228DC1D5E005203BD /* Assets.xcassets in Resources */,
 				5F21FA3028DC1D5A005203BD /* Main.storyboard in Resources */,
+				5F70434828E44ABA0026B5DB /* trash.gif in Resources */,
+				5F93125028E2E0FD00DC98F5 /* Gallery.gif in Resources */,
+				5F9AAB1928E6C26900356ACD /* Video.gif in Resources */,
+				5F93125128E2E0FD00DC98F5 /* Camera.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069FD8C6A2D190DC1D637086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Restore Master Pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FFD94BCAF3BDB72CB4BBD6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Restore Master Pro/Pods-Restore Master Pro-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Restore Master Pro/Pods-Restore Master Pro-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Restore Master Pro/Pods-Restore Master Pro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C4B1E04E2CC51324F101F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Restore Master Pro/Pods-Restore Master Pro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Restore Master Pro/Pods-Restore Master Pro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Restore Master Pro/Pods-Restore Master Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F21FA2128DC1D5A005203BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F44443D28E1C6FA006A3171 /* SmoothTabBarView.swift in Sources */,
 				5F21FA2D28DC1D5A005203BD /* ViewController.swift in Sources */,
+				5F1FB3F728E1779D00878F65 /* RegisterViewController.swift in Sources */,
+				5F793FDC28E4145300D0741F /* VideoUploadViewController.swift in Sources */,
+				5F70434E28E463BE0026B5DB /* ImageUpload.swift in Sources */,
+				5F1FB3F928E177AF00878F65 /* ForgotPasswordViewController.swift in Sources */,
+				5FF4D01D28EA0E89004EEAB3 /* AdsHelper.swift in Sources */,
+				5F93125428E2E6E600DC98F5 /* GIFCallFiles.swift in Sources */,
+				5F70434628E440090026B5DB /* ProfileViewController.swift in Sources */,
+				5F44444028E1C6FA006A3171 /* AppTabBarViewController.swift in Sources */,
+				5F93124D28E2CB6000DC98F5 /* HomeViewController.swift in Sources */,
+				5F70434C28E458370026B5DB /* Validation.swift in Sources */,
 				5F21FA2928DC1D5A005203BD /* AppDelegate.swift in Sources */,
-				5F21FA2B28DC1D5A005203BD /* SceneDelegate.swift in Sources */,
+				5F793FD628E40C6500D0741F /* UploadedImagesViewController.swift in Sources */,
+				5FB2EE3028E4186900EB378E /* UploadedImagesCollectionViewCell.swift in Sources */,
+				5F793FDE28E415D300D0741F /* FullImagesViewController.swift in Sources */,
+				5FB2EE3228E4243500EB378E /* VideoUploadCollectionViewCell.swift in Sources */,
+				5F9D335928E6B65100368D17 /* FavouriteViewController.swift in Sources */,
+				5F44443E28E1C6FA006A3171 /* SmoothTabItemView.swift in Sources */,
+				5F21FA3E28DC26AC005203BD /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,57 +560,77 @@
 		};
 		5F21FA3A28DC1D5E005203BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F1C6B8AEC03D9B1F0410D8 /* Pods-Restore Master Pro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 72SC3M4Q3Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Restore\\ Master\\ Pro/Ads\\ Helper",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Restore Master Pro/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Backup Lab Easy wants to acces your camera for uploading images.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Backup Lab Easy wants to acces your photolibrary for uploading images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Backup Lab Easy wants to acces your photolibrary for uploading images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your data will be used to provide you a better and personalized ad experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.preeti.Restore-Master-Pro";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamdo.backuplabeasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5F21FA3B28DC1D5E005203BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE84F620292CAEBA51F4363E /* Pods-Restore Master Pro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 72SC3M4Q3Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Restore\\ Master\\ Pro/Ads\\ Helper",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Restore Master Pro/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Backup Lab Easy wants to acces your camera for uploading images.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Backup Lab Easy wants to acces your photolibrary for uploading images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Backup Lab Easy wants to acces your photolibrary for uploading images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your data will be used to provide you a better and personalized ad experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.preeti.Restore-Master-Pro";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamdo.backuplabeasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -6,31 +6,49 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseCore
+import FirebaseAuth
+import MobFlowiOS
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    var mobFlow : MobiFlowSwift?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        mobFlow = MobiFlowSwift(initDelegate: self)
+        
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    static func sharedInstance() -> AppDelegate
+    {
+        UIApplication.shared.delegate as! AppDelegate
     }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
+   
 }
 
+extension AppDelegate: MobiFlowDelegate{
+
+    func present(dic: [String : Any]) {
+        DispatchQueue.main.async {
+            if let isfirstTimeLogin = UserDefaults.standard.object(forKey: "FirstTimeUserLogin") as? Bool{
+                let vc = restoreStoryboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+                let nav = UINavigationController(rootViewController: vc)
+                self.window?.rootViewController = nav
+                self.window?.makeKeyAndVisible()
+            }else{
+                let vc = restoreStoryboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+                let nav = UINavigationController(rootViewController: vc)
+                self.window?.rootViewController = nav
+                self.window?.makeKeyAndVisible()
+            }
+        }
+    }
+
+    func unloadUnityOnNotificationClick() {
+
+    }
+}

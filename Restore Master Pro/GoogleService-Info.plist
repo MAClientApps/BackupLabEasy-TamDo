@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>64784518446-e6rqopkiqabnc4q9vu28sh1ta344pjbv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.64784518446-e6rqopkiqabnc4q9vu28sh1ta344pjbv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAwuNrVvZWri9EOva2bgOHdXPwL4vnJm9Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>64784518446</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tamdo.backuplabeasy</string>
+	<key>PROJECT_ID</key>
+	<string>backup-lab-easy</string>
+	<key>STORAGE_BUCKET</key>
+	<string>backup-lab-easy.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:64784518446:ios:34ff5dc2c9461216e37ebf</string>
+</dict>
+</plist>
